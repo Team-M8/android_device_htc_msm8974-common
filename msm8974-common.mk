@@ -202,13 +202,6 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
-# Thermal
-PRODUCT_PACKAGES += \
-    thermanager
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermanager.xml:system/etc/thermanager.xml
-
 # WiFi
 PRODUCT_PACKAGES += \
     dhcpcd.conf \
