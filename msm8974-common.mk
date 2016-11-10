@@ -203,10 +203,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8974
 
-# RIL
+# Radio
 PRODUCT_PACKAGES += \
-    libcnefeatureconfig \
-    librmnetctl \
     libxml2
 
 # WiFi
